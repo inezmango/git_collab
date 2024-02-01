@@ -31,7 +31,9 @@ ggplot(diamonds, aes(x= carat, y= price, color = cut)) +
 ### In this code chunk, start with the diamonds dataset (built in to
 ### ggplot2 package) and create a subset based on filtering, e.g., 
 ### size greater than 1 carat or cut is "Ideal"
-diamonds 
+diamonds_new <- 
+  diamonds %>%
+  filter(color == "I")
 ```
 
 ## STEP 6: Uh oh, merge conflicts!
@@ -40,6 +42,9 @@ diamonds
 ### Both partners - delete this comment, then write some code here
 ### to plot, summarize, calculate something simple using the diamonds
 ### dataset (or anything you like, really)
+diamonds_new <- 
+  diamonds %>%
+  filter(color == "I")
 ```
 
 ## STEP 10: And even more merge conflicts!
