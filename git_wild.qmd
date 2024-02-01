@@ -45,6 +45,11 @@ diamonds_new <-
 diamonds_new <- 
   diamonds %>%
   filter(color == "I")
+#push it, pull it, twist it, BOP IT!!!
+#inez mangino
+diamonds <- diamonds %>% 
+  ggplot(diamonds, aes(x= carat, y= price, color = cut)) +
+  geom_point()
 ```
 
 ## STEP 10: And even more merge conflicts!
