@@ -38,7 +38,7 @@ diamonds
 
 ```{r break-it-1}
 #push it, pull it, twist it, BOP IT!!!
-inez mangino
+#inez mangino
 ```
 
 ## STEP 10: And even more merge conflicts!
